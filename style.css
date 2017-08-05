@@ -1,0 +1,170 @@
+
+.gridStyle {
+    border: 1px solid rgb(212,212,212);
+    width: 1700px; 
+    height: 900px;
+}
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width:80%;
+}
+.command {
+  display: flex;
+ 
+}
+
+.btn {
+   margin-bottom: 10 !important; 
+}
+
+div.task table td{
+	/*padding-right: 10px;*/
+}
+
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+
+.duration {
+  	width:100px;
+}
+.dueDate {
+  	width:150px;
+}
+.maxDate {
+ 	width:150px;
+}
+.status {
+ 	width:50px;
+}
+.type {
+  	width:50px;
+}	
+.priority {
+  	width:50px;
+}
+.route {
+    width:50px;
+}
+.root{
+	width:100%;
+}
+.time{
+  width:30px;
+}
+div.task{
+	width:auto;
+}
+input.task{
+	width:100%;
+  max-width: 600px;
+}
+
+input.tags{
+  width:150;
+}
+
+td.tags{
+  width:150;
+}
+
+
+div.filter{
+	/*min-width:300px;*/
+}
+div.message{
+  color: red
+}
+
+div input.tagFilter{
+  width: 150px;
+}
+input.editnote{
+  width: 400px;
+}
+div.note{
+  position: absolute;
+  left: 500px;
+  top:100px;
+  border-style: solid;
+  border-width: 5px;
+  width: 700px;
+  height: 300px;
+  opacity: 0.3;
+  background-color: rgba(204, 204, 204, 1);
+  opacity: inherit;
+  display: flex;
+  flex-direction: column;
+}
+textarea.editnote{
+  width: 800px;
+  height: 200px;
+}
+
+table td {
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 500px;
+}
+
+table tr:hover { 
+    background-color: #8968CD;
+}
+
+table tr.record-highlight {
+    background-color: #B0E0E6;
+}
+table tr.record-check-later{
+   background-color: red;
+}
+
+table tr td.lightred{
+   background-color: #ff9999;
+}
+
+.red{
+   background-color: #ff3333;
+}
+
+table tr td.lightblue{
+   background-color: #80ccff;
+}
+
+table tr td.blue{
+   background-color: #0099ff;
+}
+
+table tr td.critical{
+   background-color: red;
+}
+
+table tr td.marked{
+   background-color: green;
+}
+
+table tr td.phigh{
+   background-color: red;
+}
+
+table tr td.noturgent{
+   font-style: italic;
+   opacity: 0.5;
+}
+
+table tr.datechanged{
+  /*light purple*/
+   background-color: #BDA0CB;
+}
+
+
+
+body, table {
+  font-size: small !important; 
+}

@@ -1,0 +1,52 @@
+<html ng-app="myApp">
+   <head lang="en">
+      <meta charset="utf-8">
+      <title>Getting Started With ngGrid Example</title>
+      <link rel="stylesheet" type="text/css" href="ng-grid.css" />
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <link rel="stylesheet" type="text/css" href="jquery-ui.css" />
+      <script type="text/javascript" src="jquery-2.1.3.js"></script>
+      <script type="text/javascript" src="date.js"></script>
+      <script type="text/javascript" src="angular.min.js"></script>
+      <script type="text/javascript" src="craiglist.js"></script>
+      <script type="text/javascript" src="underscore-min.js"></script>
+      <script type="text/javascript" src="jquery-ui.js"></script>
+      <script type="text/javascript" src="mycron.js"></script>
+      <script src="ui-bootstrap-tpls-0.12.1.js"></script>
+     <!--  <link href="bootstrap.min.css" rel="stylesheet"> -->
+   </head>
+   <body ng-app="demo" ng-controller="Ctrl" >
+      <div class="root" >
+         <div class="task" >
+            <table>
+               <thead>
+                  <th><a href="" ng-click="predicate = 'price'; reverse=!reverse">Price</a></th>
+               	<th><a href="" ng-click="predicate = 'bath'; reverse=!reverse">Bath</a></th>
+                  <th><a href="" ng-click="predicate = 'availDate'; reverse=!reverse">Avail Date</a></th>
+                  <th><a href="" ng-click="predicate = 'sqFt'; reverse=!reverse">Sq Ft</a></th>
+                  <th><a href="" ng-click="predicate = 'postUrl'; reverse=!reverse">Post Url</a></th>
+                  <th><a href="" ng-click="predicate = 'mapUrl'; reverse=!reverse">Map</a></th>
+                  
+               </thead>
+               <tbody>
+                  <tr ng-repeat="task in model.tasks" >
+                     <td>{{task.price}}</td>
+                     <td>{{task.bath}}</td>
+                     <td>{{task.availDate}}</td>
+                     <td>{{task.sqFt}}</td>
+                     <td><a href={{task.postUrl}}>post</a></td>
+                     <td><a href={{task.mapUrl}}>gmap</a></td>
+                  </tr>
+               </tbody>
+            </table>
+
+           
+
+
+             
+         </div>
+      </div>
+
+     
+   </body>
+</html>

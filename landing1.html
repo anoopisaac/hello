@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0048)http://nasy00wcmdev02.bdx.com/cosi/landing.shtml -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" ng-app="cosiapp" >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=1024">
+	<!-- <script src="https://static.bdbiosciences.com/y/common/js/jquery.ui.datepicker.validation.js"></script> -->
+	<title>BD Customer Order Search Inquiry Tool</title>
+	<!-- Angular -->
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.js"></script>
+	<script type="text/javascript" src="cosi-home.js"></script>
+	<script language="javascript" type="text/javascript" src="./landing_files/jquery.js"></script>
+	<script language="javascript" type="text/javascript" src="./landing_files/notifications.js"></script>
+	<script language="javascript" type="text/javascript" src="./landing_files/search.js"></script>
+	<script language="javascript" type="text/javascript" src="./landing_files/esSearchUtils.js"></script>
+	<script language="javascript" type="text/javascript" src="./landing_files/zoom.js"></script>
+	<script language="javascript" type="text/javascript" src="./landing_files/swfobject.js"></script>
+	<script language="javascript" type="text/javascript" src="./landing_files/cosi.js"></script>
+	<script language="javascript" type="text/javascript" src="./landing_files/mtagconfig-2.1.js"></script> 
+	<script language="javascript" type="text/javascript" src="./landing_files/jquery.simplemodal.js"></script>
+	<script language="javascript" type="text/javascript" src="./landing_files/jquery.hoverintent.js"></script>
+	<script language="javascript" type="text/javascript" src="./landing_files/jquery.autocomplete.js"></script>
+	<script src="./landing_files/acc.paginationsort.js"></script>
+	<script src="./landing_files/jquery.cookie.js"></script>
+	<script src="./landing_files/jquery.validate.js"></script>
+	<script src="./landing_files/jquery.ui.datepicker.validation.js"></script>
+	<script src="./landing_files/acc.forgotpassword.js"></script>
+	<script src="./landing_files/jquery-ui.js"></script>
+	<script type="text/javascript">	
+		function writeYear(){	
+			var now = new Date	
+			var theYear=now.getFullYear()	
+			document.write(theYear)	
+		}	
+	</script>
+	<link href="./landing_files/cosi.css" rel="stylesheet" type="text/css">
+	<link href="./landing_files/zoom.css" rel="stylesheet" type="text/css">
+	<link href="./landing_files/jquery.autocomplete.css" rel="stylesheet" type="text/css" media="screen">
+	<link rel="stylesheet" href="./landing_files/jquery-ui.css">
+	<meta name="description" content="Sign in for BD&#39;s Customer Order Search">
+</head>
+<body ng-controller="CosiCntrl">
+	<div ng-include src="layout.header"></div>
+	<div ng-include src="layout.selected"></div>
+	<div ng-include src="layout.dateDiv"></div>
+</body>
+</html>
